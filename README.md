@@ -27,7 +27,7 @@ The data would normally come from the company’s own systems, but in this case 
 **Retail Sales Data**
 In the Kaggle data set, you will find the following three CSV files. - sales.csv - Daily sales data covering 2017-2019. - product_hierarchy.csv - Data containing the hierarchy and sizes of the products. - store_cities.csv - Data containing the store's city, type, and size information.
 
-**_sales.csv_** - This csv file provides insights into product sales, revenue, stock levels, pricing, and promotional effectiveness across different stores and dates.
+**sales.csv** - This csv file provides insights into product sales, revenue, stock levels, pricing, and promotional effectiveness across different stores and dates.
 
                        •	_product_id_ - The unique identifier of a product (String)
                        •	_store_id_ - The unique identifier of a store (String)
