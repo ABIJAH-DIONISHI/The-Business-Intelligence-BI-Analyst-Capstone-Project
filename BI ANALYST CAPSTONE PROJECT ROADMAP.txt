@@ -1,0 +1,18 @@
+﻿BI ANALYST CAPSTONE PROJECT ROADMAP
+Problem statement:You have recently been appointed as a BI Analyst by a leading retail chain that operates globally, renowned for its diverse product offerings and commitment to customer satisfaction. In order to maintain its competitive edge and optimize business performance, the company is keen on leveraging data-driven insights to enhance sales strategies and operational efficiency.
+As a BI Analyst, your primary responsibility is to conduct a comprehensive analysis of the sales performance of the retail chain across different regions and time periods. The objective is to identify key factors influencing sales, including store locations, product hierarchies, and promotional strategies. By delving into the sales data extracted from daily sales records, product hierarchy details, and store information, you will unravel valuable insights that inform strategic decision-making.
+
+Module 1: Data Cleaning and Preparation Using Excel
+    1. Data Cleaning and Preparation
+    2. Basic Analysis Using Pivot Tables
+Module 2: Data Querying and Analysis Using PostgreSQL 
+    1. Data Querying Using PostgreSQL
+    2. Data Analysis Using PostgreSQL
+Module 3: Data Visualization and Statistical Analysis
+    1. Data Visualization Using MS Excel 
+    2. Statistical Analysis
+Module 4: Data Visualization and Dashboards with Tableau
+    1. Basic Tableau Visualizations
+    2. Advanced Visualization Using Tableau
+Module 5: Present Your Findings
+    1. Final Presentation
