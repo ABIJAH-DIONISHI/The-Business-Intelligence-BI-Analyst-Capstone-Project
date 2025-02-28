@@ -60,7 +60,7 @@ In the Kaggle data set, you will find the following three CSV files. - sales.csv
                       •	_hierarchy4_id_ (String)
                       •	_hierarchy5_id_ (String)
   
-store_cities.csv - This csv file contains information about store identifiers, types, sizes, and the corresponding city identifiers.
+**store_cities.csv** - This csv file contains information about store identifiers, types, sizes, and the corresponding city identifiers.
 
                      •	_store_id_ - The unique identifier of a store (String)
                      •	_storetype_id_ (String)
