@@ -11,12 +11,15 @@ Your tasks will encompass the following:
 Your initial task involves meticulously cleaning and analyzing the sales data using Excel. This includes conducting Sales Data Analysis, Sales by City Analysis, and Product Performance Analysis to gain a comprehensive understanding of sales trends and patterns.
 
 **Data Querying and Analysis**
+
 Using PostgreSQL, you will create data cubes with ROLLUP, summarize data along hierarchies, and identify trends by combining time and geographical data. This will enable you to extract actionable insights to optimize sales strategies and stock management.
 
 **Chart Creation and Regression Analysis**
+
 In this phase, you will focus on creating insightful charts using Excel and conducting regression analysis to uncover correlations between sales figures and dates. This analysis will provide valuable insights into sales trends and seasonal patterns, facilitating informed decision-making.
 
 **Data Visualization**
+
 Harnessing the power of Tableau, you will create dynamic dashboards and visualizations to present key findings related to sales performance, regional sales analysis, product analysis, and store performance. Your visualization efforts will facilitate clear communication of insights and support strategic decision-making processes.
 
 You will also develop a final project presentation in PowerPoint, where you will demonstrate your ability to derive actionable insights from data and communicate findings effectively to stakeholders.
@@ -25,6 +28,7 @@ Data Details
 The data would normally come from the company’s own systems, but in this case we have taken the data from the Retail Sales Data data set at the Kaggle website.
 
 **Retail Sales Data**
+
 In the Kaggle data set, you will find the following three CSV files. - sales.csv - Daily sales data covering 2017-2019. - product_hierarchy.csv - Data containing the hierarchy and sizes of the products. - store_cities.csv - Data containing the store's city, type, and size information.
 
 **sales.csv** - This csv file provides insights into product sales, revenue, stock levels, pricing, and promotional effectiveness across different stores and dates.
@@ -64,7 +68,9 @@ store_cities.csv - This csv file contains information about store identifiers, t
                      •	_city_id_ (String)
   
 **Modified Data**
+
 The dataset obtained from Kaggle contains 19.5 million entries, which far exceeds Excel's maximum row limit of around 1 million. If we were to use the entire dataset, cleaning and other operations would become prohibitively time-consuming, and Excel might eventually stop responding. For this reason, the sales.csv file has been truncated to approximately 600,000 rows of data for your use.
+
 To enhance data understanding, readability, and analysis, we have included three additional CSV files and the existing three CSV files.
 
 **product_names.csv** - This file links product identifiers with their corresponding names, providing a mapping for easier reference and analysis.
