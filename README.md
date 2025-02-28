@@ -23,56 +23,64 @@ You will also develop a final project presentation in PowerPoint, where you will
 
 Data Details
 The data would normally come from the company’s own systems, but in this case we have taken the data from the Retail Sales Data data set at the Kaggle website.
+
 **Retail Sales Data**
 In the Kaggle data set, you will find the following three CSV files. - sales.csv - Daily sales data covering 2017-2019. - product_hierarchy.csv - Data containing the hierarchy and sizes of the products. - store_cities.csv - Data containing the store's city, type, and size information.
+
 **_sales.csv_** - This csv file provides insights into product sales, revenue, stock levels, pricing, and promotional effectiveness across different stores and dates.
-  •	_product_id_ - The unique identifier of a product (String)
-  •	_store_id_ - The unique identifier of a store (String)
-  •	_date_ - Sales date (YYYY-MM-DD)
-  •	_sales_ - Sales quantity (Number)
-  •	_revenue_ - Daily total sales revenue (Number)
-  •	_stock_ - End of day stock quantity (Number)
-  •	_price_ - Product sales price (Number)
-  •	_promo_type_1_ - Type of promotion applied on channel 1 (String)
-  •	_promo_bin_1_ - Binned promotion rate for applied promo_type_1 (String)
-  •	_promo_type_2_ - Type of promotion applied on channel 2 (String)
-  •	_promo_bin_2_ - Binned promotion rate for applied promo_type_2
-  •	_promo_discount_2_ - Discount rate for applied promo type 2
-  •	_promo_discount_type_2_ - Type of discount applied
+
+                       •	_product_id_ - The unique identifier of a product (String)
+                       •	_store_id_ - The unique identifier of a store (String)
+                       •	_date_ - Sales date (YYYY-MM-DD)
+                       •	_sales_ - Sales quantity (Number)
+                       •	_revenue_ - Daily total sales revenue (Number)
+                       •	_stock_ - End of day stock quantity (Number)
+                       •	_price_ - Product sales price (Number)
+                       •	_promo_type_1_ - Type of promotion applied on channel 1 (String)
+                       •	_promo_bin_1_ - Binned promotion rate for applied promo_type_1 (String)
+                       •	_promo_type_2_ - Type of promotion applied on channel 2 (String)
+                       •	_promo_bin_2_ - Binned promotion rate for applied promo_type_2
+                       •	_promo_discount_2_ - Discount rate for applied promo type 2
+                       •	_promo_discount_type_2_ - Type of discount applied
   
 **product_hierarchy.csv** - This csv file provides details about product dimensions such as length, depth, and width, along with cluster and hierarchy IDs.
-  •	_product_id_ - The unique identifier of a product (String)
-  •	_product_length_ - Length of product (Number)
-  •	_product_depth_ - Depth of product (Number)
-  •	_product_width_ - Width of the product (Number)
-  •	_Cluster_id_ (String)
-  •	_hierarchy1_id_ (String)
-  •	_hierarchy2_id_ (String)
-  •	_hierarchy3_id_ (String)
-  •	_hierarchy4_id_ (String)
-  •	_hierarchy5_id_ (String)
+
+                      •	_product_id_ - The unique identifier of a product (String)
+                      •	_product_length_ - Length of product (Number)
+                      •	_product_depth_ - Depth of product (Number)
+                      •	_product_width_ - Width of the product (Number)
+                      •	_Cluster_id_ (String)
+                      •	_hierarchy1_id_ (String)
+                      •	_hierarchy2_id_ (String)
+                      •	_hierarchy3_id_ (String)
+                      •	_hierarchy4_id_ (String)
+                      •	_hierarchy5_id_ (String)
   
 store_cities.csv - This csv file contains information about store identifiers, types, sizes, and the corresponding city identifiers.
-  •	_store_id_ - The unique identifier of a store (String)
-  •	_storetype_id_ (String)
-  •	_store_size_ (Number)
-  •	_city_id_ (String)
+
+                     •	_store_id_ - The unique identifier of a store (String)
+                     •	_storetype_id_ (String)
+                     •	_store_size_ (Number)
+                     •	_city_id_ (String)
   
 **Modified Data**
 The dataset obtained from Kaggle contains 19.5 million entries, which far exceeds Excel's maximum row limit of around 1 million. If we were to use the entire dataset, cleaning and other operations would become prohibitively time-consuming, and Excel might eventually stop responding. For this reason, the sales.csv file has been truncated to approximately 600,000 rows of data for your use.
 To enhance data understanding, readability, and analysis, we have included three additional CSV files and the existing three CSV files.
 
 **product_names.csv** - This file links product identifiers with their corresponding names, providing a mapping for easier reference and analysis.
-  •	_product_id_ (String)
-  •	_product_name_ (String)
+
+                    •	_product_id_ (String)
+                    •	_product_name_ (String)
   
 **store_names.csv** - This file associates store identifiers with their respective names, allowing for better identification and analysis of stores.
-  •	_store_id_ (String)
-  •	_store_name_ (String)
+
+                    •	_store_id_ (String)
+                    •	_store_name_ (String)
   
 **city_names.csv** - This file maps city identifiers to their names, enabling geographical analysis and insights based on city-level data.
-  •	_city_id_ (String)
-  •	_city_names_ (String)
+
+                    •	_city_id_ (String)
+                    •	_city_names_ (String)
   
 
 
