@@ -1,11 +1,11 @@
 # The-Business-Intelligence-BI-Analyst-Capstone-Project
-# The-Business-Intelligence-BI-Analyst-Capstone-Project
 **Business Scenario and Dataset Details**
 You have recently been appointed as a BI Analyst by a leading retail chain that operates globally, renowned for its diverse product offerings and commitment to customer satisfaction. In order to maintain its competitive edge and optimize business performance, the company is keen on leveraging data-driven insights to enhance sales strategies and operational efficiency.
 
 As a BI Analyst, your primary responsibility is to conduct a comprehensive analysis of the sales performance of the retail chain across different regions and time periods. The objective is to identify key factors influencing sales, including store locations, product hierarchies, and promotional strategies. By delving into the sales data extracted from daily sales records, product hierarchy details, and store information, you will unravel valuable insights that inform strategic decision-making.
 
 Your tasks will encompass the following:
+
 **Data Cleaning and Analysis**
 
 Your initial task involves meticulously cleaning and analyzing the sales data using Excel. This includes conducting Sales Data Analysis, Sales by City Analysis, and Product Performance Analysis to gain a comprehensive understanding of sales trends and patterns.
